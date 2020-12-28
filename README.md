@@ -24,8 +24,10 @@ Local Minima는 경사 하강법을 사용할 때 빠질 수 있는 함정이다
 
 ![image](https://user-images.githubusercontent.com/24853452/103201754-040cb200-4934-11eb-97c0-ba199782167b.png)
 
+### ReLU Activation Function
 시그모이드 함수는 입력 x가 어느정도 커지면 항상 1에 가까운 값을 출력하기 때문에, 입력의 변화가 출력에 반영되기 어렵다.<br/>
 그 결과, 오차함수의 가중치 매개 변수에 대한 편미분이 0에 가까운 갓ㅂ이 되어, 경사하강법이 늦어지는 문제점 발생
+
 ![image](https://user-images.githubusercontent.com/24853452/103206259-cc573780-493e-11eb-9205-b7404cb76831.png)
 
 또한 max(0,x)로 쉽게 나타낼 수 있으므로 계산이 빠르다. 중간층의 activation을 sigmoid에서 relu로 바꾸면 다음과 같은 결과가 나온다.
