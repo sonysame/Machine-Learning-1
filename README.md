@@ -9,3 +9,5 @@
 
 ## MNIST_FNN.py 결과
 ![image](https://user-images.githubusercontent.com/24853452/103201675-d58ed700-4933-11eb-9bb4-d6c7208efc5f.png)
+
+![image](https://user-images.githubusercontent.com/24853452/103201754-040cb200-4934-11eb-97c0-ba199782167b.png)
