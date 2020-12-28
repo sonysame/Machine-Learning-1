@@ -19,7 +19,7 @@ batch 를 사용 -> 확률적 경사 하강법 <br/>
 Local Minima는 경사 하강법을 사용할 때 빠질 수 있는 함정이다. 경사가 0이 될 수 있는 최솟점이 여러 개 있으면, 학습을 시작한 위치에 따라 Global Minimum에 도달하지 못할 수 있다. <br/> 
 
 
-따라서 batch를 활용해서 확률적 경사 하강법을 사용!
+따라서 batch를 활용해서 **확률적 경사 하강법**을 사용!
 ![image](https://user-images.githubusercontent.com/24853452/103201675-d58ed700-4933-11eb-9bb4-d6c7208efc5f.png)
 
 ![image](https://user-images.githubusercontent.com/24853452/103201754-040cb200-4934-11eb-97c0-ba199782167b.png)
