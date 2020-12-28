@@ -46,7 +46,7 @@ y_test=tf.keras.utils.to_categorical(y_test, num_classes)
 
 np.random.seed(1)
 model=Sequential()
-model.add(Dense(16, input_dim=784, activation='sigmoid'))
+model.add(Dense(16, input_dim=784, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 model.compile(loss='categorical_crossentropy',optimizer=tf.keras.optimizers.Adam(), metrics=['accuracy'])
 
@@ -77,8 +77,24 @@ plt.ylim(0,1)
 plt.legend()
 plt.grid()
 plt.xlabel('epoch')
-plt.ylabel('loss')
+plt.ylabel('accuracy')
 plt.show()
 
 show_prediction()
+plt.show()
+
+w=model.layers[0].get_weights()[0]
+plt.figure(3,figsize=(12,3))
+plt.gray()
+plt.subplots_adjust(wspace=0.35, hspace=0.5)
+for i in range(16):
+	plt.subplot(2,8,i+1)
+	w1=w[:,i]
+	w1=w1.reshape(28,28)
+	plt.pcolor(-w1)
+	plt.xlim(0,27)
+	plt.ylim(27,0)
+	plt.xticks([],"")
+	plt.yticks([],"")
+	plt.title("%d"%i)
 plt.show()
