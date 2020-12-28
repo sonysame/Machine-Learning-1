@@ -23,3 +23,13 @@ Local Minima는 경사 하강법을 사용할 때 빠질 수 있는 함정이다
 ![image](https://user-images.githubusercontent.com/24853452/103205262-84371580-493c-11eb-9cf2-75bc3c436468.png)
 
 ![image](https://user-images.githubusercontent.com/24853452/103201754-040cb200-4934-11eb-97c0-ba199782167b.png)
+
+시그모이드 함수는 입력 x가 어느정도 커지면 항상 1에 가까운 값을 출력하기 때문에, 입력의 변화가 출력에 반영되기 어렵다.<br/>
+그 결과, 오차함수의 가중치 매개 변수에 대한 편미분이 0에 가까운 갓ㅂ이 되어, 경사하강법이 늦어지는 문제점 발생
+
+
+![image](https://user-images.githubusercontent.com/24853452/103205419-db3cea80-493c-11eb-8a35-7ffe5ed93d97.png)
+
+![image](https://user-images.githubusercontent.com/24853452/103205357-b47eb400-493c-11eb-8fcf-8fc83d33784f.png)
+
+![image](https://user-images.githubusercontent.com/24853452/103205379-c4969380-493c-11eb-9441-e28929bdafc5.png)
