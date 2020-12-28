@@ -38,3 +38,5 @@ Local Minima는 경사 하강법을 사용할 때 빠질 수 있는 함정이다
 ![image](https://user-images.githubusercontent.com/24853452/103205357-b47eb400-493c-11eb-8fcf-8fc83d33784f.png)
 
 ![image](https://user-images.githubusercontent.com/24853452/103205379-c4969380-493c-11eb-9441-e28929bdafc5.png)
+
+![image](https://user-images.githubusercontent.com/24853452/103207599-15f55180-4942-11eb-908f-80b4d9ec7cc5.png)
