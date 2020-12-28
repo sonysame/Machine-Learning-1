@@ -39,4 +39,7 @@ Local Minima는 경사 하강법을 사용할 때 빠질 수 있는 함정이다
 
 ![image](https://user-images.githubusercontent.com/24853452/103205379-c4969380-493c-11eb-9441-e28929bdafc5.png)
 
+중간층 뉴런의 가중치를 출력하면 다음과 같다.<br/>
+검은부분이 양의 값을, 흰색 부분이 음의 값을 나타낸다.<br/>
+검은 부분에 문자 일부분이 있으면 그 뉴런은 활성화하고, 흰 부분에 문자 일부분이 있으면 억제 된다.
 ![image](https://user-images.githubusercontent.com/24853452/103207599-15f55180-4942-11eb-908f-80b4d9ec7cc5.png)
